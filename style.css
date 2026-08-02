@@ -1,0 +1,41 @@
+body{
+  background: #d9d3d3;
+}
+.grid{
+  border-radius: 12px;
+  margin: 30px;
+  height: 800px;
+  border: 1px solid black;
+  background: #98DFFF;
+  display: grid;
+  gap:3px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.display{
+  border: 1px solid black;
+  border-radius: 10pz;
+  grid-column-end: span 3;
+  grid-row: span 3;
+  background: #B3C1B3;
+  display: flex;
+  font-size: 60px;
+  padding-right: 30px;
+  align-items: center;
+  flex-direction: row-reverse;
+}button, div{
+  font-size: 40px;
+}
+.operator{
+  display: grid;
+  
+  grid-row: span .5;
+  grid-column: span 3;
+  gap :3px;
+  grid-template-columns: repeat(5, 1fr);
+}
+button{
+  border-radius: 10%;
+}
+.op1{
+background: #0376A9;
+}
