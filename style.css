@@ -13,7 +13,7 @@ body{
 }
 .display{
   border: 1px solid black;
-  border-radius: 5%;
+  border-radius: 4%;
   grid-column-end: span 3;
   grid-row: span 3;
   background: #B3C1B3;
