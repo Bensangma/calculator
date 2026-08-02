@@ -13,7 +13,7 @@ body{
 }
 .display{
   border: 1px solid black;
-  border-radius: 10pz;
+  border-radius: 10px;
   grid-column-end: span 3;
   grid-row: span 3;
   background: #B3C1B3;
