@@ -390,3 +390,44 @@ body {
         display: none; /* Hide standard links on mobile */
     }
 }
+/* ==========================================================================
+   Header Auth Buttons
+   ========================================================================== */
+.nav-auth {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.btn-auth {
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 0.45rem 1.1rem;
+    border-radius: 6px;
+    letter-spacing: 0.03em;
+    transition: all 0.25s ease;
+}
+
+.btn-signin {
+    color: var(--text-main);
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+}
+
+.btn-signin:hover {
+    border-color: var(--text-muted);
+    color: var(--accent-cyan);
+}
+
+.btn-signup {
+    color: #000;
+    background-color: var(--accent-cyan);
+    border: 1px solid var(--accent-cyan);
+}
+
+.btn-signup:hover {
+    background-color: var(--accent-hover);
+    border-color: var(--accent-hover);
+    box-shadow: 0 0 10px var(--accent-glow);
+}
